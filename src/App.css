@@ -1,0 +1,547 @@
+
+body{
+  background-color: #ffffff;
+}
+
+.apugo {
+  color: black;
+  margin: 0px 80px;
+  font-family: "Poppins";
+
+}
+.titleturisc {
+  color: black;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 40px;
+  margin-bottom: -15px;
+  margin-top: 180px;
+}
+h5{
+  color: black;
+  margin: 40px 80px 80px 80px;
+  font-weight: 350;
+  width: 450px;
+  font-family: "Poppins";
+  font-size: 15px;
+}
+h3{
+  color: black;
+  margin-left: 5%;
+  font-weight: 600;
+  font-family: "Poppins";
+  font-size: 15px;
+}
+.grande {
+  font-size: 23px; /* Tamaño más grande para ApuGo */
+  font-weight: bold; /* Opcional: hacer el texto negrita */
+}
+.home{
+  display: flex;
+}
+
+.info1{
+  width: 45%;
+}
+
+.info1 img {
+  width: 50%;
+  height: 150px;
+  /*border: 1px solid red;*/
+  margin-top: 10%;
+}
+
+.image1{
+  width: 55%;
+  margin-left: 4px;
+}
+
+.info1 button{
+  margin-left: 12%;
+  width: 160px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.info1 button img {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+}
+.info1 p{
+
+  font-size: 10px;
+
+}
+.image1 img{
+  height: 100vh;
+  width: 100%;
+}
+
+ .contenedor {
+            position: relative; /* Para posicionar los círculos relativos a este contenedor */
+            width: 200px; /* Ancho del contenedor */
+            height: 70px; /* Alto del contenedor */
+            margin: 50px 12%; /* Centrar el contenedor en la página */
+            display: flex; /* Usar flexbox para disposición horizontal */
+            justify-content: center; /* Centrar los círculos dentro del contenedor */
+            border: 1.5px solid black;
+            align-items: center;
+            align-content: center;
+            border-radius: 10px;
+   
+        }
+        .circulo {
+            position: absolute; /* Posicionamiento absoluto dentro del contenedor */
+            width: 40px; /* Ancho del círculo */
+            height: 40px; /* Alto del círculo */
+            border-radius: 50%; /* Hace que el div sea un círculo */
+        }
+        .circulo1 { background-color: #494949; left: 50px; }
+        .circulo2 { background-color: #909090; left: 40px; } /* Superposición */
+        .circulo3 { background-color: #AEAEAE; left: 30px; } /* Superposición */
+        .circulo4 { background-color: #D9D9D9; left: 20px; } /* Superposición */
+        .contenedor h4{
+          color: black;
+          margin-left: 40%;
+          text-align: center;
+          font-size: 13.5px;
+          font-weight: 800;
+        }
+
+
+
+.cel {
+  margin: 18% 0% 0 70%;
+  width: 360px ;
+  height: 700px;
+  position: absolute;
+}
+
+.reseñas {
+  width: 250px;
+  height: 280px;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  border: 3px solid #61C6B9;
+  border-radius: 35px;
+  margin: 7% 40%;
+  background-color: white;
+
+}
+
+.reseñas h3{
+  font-size: 25px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.reseñas p{
+  color: black;
+  font-size: 10px;
+  width: 200px;
+  margin: 10px  10%;
+}
+
+.reseñas .star {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+.reseñas2 {
+  width: 250px;
+  height: 280px;
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  border: 3px solid #61C6B9;
+  border-radius: 35px;
+  margin: 30% 40%;
+  background-color: rgb(0, 0, 0);
+
+}
+
+.reseñas2 h3{
+  font-size: 25px;
+  margin: 0;
+  font-weight: bold;
+  color: white;
+}
+
+.reseñas2 p{
+  color: rgb(255, 255, 255);
+  font-size: 10px;
+  width: 200px;
+  margin: 10px  10%;
+}
+
+.reseñas2 .star {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+/*SITIOS TURISTICOS*/        
+
+.siteTurisc {
+  display: flex;
+  margin: 0 100px;
+}
+
+.siteTurisc .site1 img{
+  width: 400px;
+  height: 382px;
+  border-radius: 10px;
+  filter: brightness(80%);
+
+}
+.siteTurisc .site2 img{
+  width: 450px;
+  height: 770px;
+  margin: 0 10px;
+  border-radius: 10px;
+  filter: brightness(80%);
+
+}
+.siteTurisc .site3 img{
+  width: 400px;
+  height: 252px;
+  border-radius: 10px;
+  filter: brightness(80%);
+}
+
+.site1 {
+  /*border: 1px solid red;*/
+}
+
+.micaela section{
+  margin-top: -130px;
+  position: absolute;
+  margin-left: 15px;
+  width: 300px;
+}
+
+.micaela section h4{
+  font-size: 18px;
+}
+
+.micaela section p{
+  font-size: 10px;
+  width: 250px;
+  margin-top: -20px;
+}
+
+.ampay section{
+  margin-top: -130px;
+  position: absolute;
+  margin-left: 15px;
+  width: 300px;
+}
+
+.ampay section h4{
+  font-size: 18px;
+}
+
+.ampay section p{
+  font-size: 10px;
+  width: 250px;
+  margin-top: -20px;
+}
+
+.illanya section{
+  margin-top: -130px;
+  position: absolute;
+  margin-left: 15px;
+  width: 300px;
+}
+
+.illanya section h4{
+  font-size: 18px;
+}
+
+.illanya section p{
+  font-size: 10px;
+  width: 250px;
+  margin-top: -20px;
+}
+
+.pachachaca section{
+  margin-top: -130px;
+  position: absolute;
+  margin-left: 15px;
+  width: 300px;
+}
+
+.pachachaca section h4{
+  font-size: 18px;
+}
+
+.pachachaca section p{
+  font-size: 10px;
+  width: 250px;
+  margin-top: -20px;
+}
+
+
+.armas section{
+  margin-top: -130px;
+  position: absolute;
+  margin-left: 15px;
+  width: 300px;
+}
+
+.armas section h4{
+  font-size: 18px;
+}
+
+.armas section p{
+  font-size: 10px;
+  width: 250px;
+  margin-top: -20px;
+}
+
+
+.karkatera section{
+  margin-top: -130px;
+  position: absolute;
+  margin-left: 15px;
+  width: 300px;
+}
+
+.karkatera section h4{
+  font-size: 18px;
+}
+
+.karkatera section p{
+  font-size: 10px;
+  width: 250px;
+  margin-top: -20px;
+}
+
+
+/*mensaje*/
+.mensaje {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 80px;
+}
+
+.mensaje .rectangulo1{
+  width: 350px;
+  height: 80px;
+  background-color: #61C6B9;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.mensaje .rectangulo2{
+  width: 338px;
+  height: 80px;
+  background-color: #61C6B9;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.circle1 {
+  width: 25px; /* Ancho del círculo */
+  height: 25px; /* Alto del círculo */
+  border-radius: 50%; /* Hace que el div sea un círculo */
+}
+.circle1 { background-color: #61C6B9; margin-left: 10px;}
+
+.mesage {
+  width: 490px;
+  height: 50px;
+  background-color: #61C6B9;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  border-radius: 10px;
+
+}
+
+.mesage p{
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+/*somos*/
+
+.quiensomos {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+}
+
+.quiensomos .somos {
+  width: 50%;
+  height: 450px;
+  border: 3px solid #61C6B9;
+  align-items: center;
+  text-align: center;
+  border-radius: 25px;
+  margin: 100px;
+}
+.quiensomos .somos img{
+  width: 150px;
+  height: 150px;
+  margin-top: 25px;
+}
+
+.quiensomos .somos h2{
+  color: black;
+  font-size: 35px;
+  margin-top: -10px;
+}
+.quiensomos .somos p{
+  color: black;
+  font-size: 15px;
+  width: 520px;
+  margin-left: 50px;
+  text-align: justify;
+}
+.quiensomos .somos button{
+  background-color: black;
+  width: 160px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  float: right;
+  margin: 15px 50px 0px 00px;
+  
+}
+.quiensomos .somos button img{
+  width: 30px;
+  height: 30px;
+  margin: 0;
+}
+.quiensomos .somos button p{
+  color: white;
+  margin-left: 10px;
+  float: left;
+}
+
+
+.quiensomos .develop{
+  width: 40%;
+  height: 450px;
+  align-items: center;
+  text-align: center;
+  margin-right: 150px;
+
+}
+
+.quiensomos .develop h3{
+  font-size: 25px;
+
+}  
+
+.quiensomos .develop .contentDev{
+  display: flex;
+  padding-left: 80px;
+}
+.quiensomos .develop .contentDev div{ 
+  margin: 0 10px;
+}
+.quiensomos .develop .contentDev img{
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+}
+.quiensomos .develop p{
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  width: 150px;
+}
+
+
+footer{
+  background-color: #61C6B9;
+  display: flex;
+  height: auto;
+  padding: 10px 0 40px 0; 
+  align-items: center;
+  align-content: center;
+ 
+}
+
+footer .mision, .vision{
+  width: 350px;
+  text-align: justify;
+
+}
+footer .mision h3{
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+footer .mision p{
+  margin: 0 10%;
+  font-size: 12px;
+
+}
+
+footer .vision h3{
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+footer .vision p{
+  width: 80%;
+  margin: 0 10%;
+  font-size: 12px;
+}
+
+footer .socios {
+  align-items: center;
+  text-align: center;
+  margin-left: 30px;
+}
+footer .socios h3{
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+footer .socios div {
+  display: flex;
+}
+footer .socios img{
+  width: 100px;
+  height: 100px;
+}
+
+footer button{
+  margin-left: 100%;
+  width: 160px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+footer button img {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+}
+footer p{
+
+  font-size: 10px;
+
+}
